@@ -5,9 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/UTeamFactory/perustars-configdata.git
+          uri: https://github.com/UTeamFactory/config-data.git
           username: ${BANKING_GIT_USER}
           password: ${BANKING_GIT_TOKEN}
-          default-label: "main"
-          searchPaths: artwork-service, event-service, report-service
+          default-label: "master"
+          searchPaths: artworks-service, events-service, reports-service
           cloneOnStart: true
