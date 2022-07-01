@@ -9,5 +9,5 @@ spring:
           username: ${BANKING_GIT_USER}
           password: ${BANKING_GIT_TOKEN}
           default-label: "master"
-          searchPaths: artworks-service, events-service, reports-service
+          searchPaths: artworks-service, events-service, reports-service, artists-service
           cloneOnStart: true
